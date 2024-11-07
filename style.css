@@ -68,3 +68,11 @@ div.LogoHeader img{
     display: block;
     margin: auto;
 }
+
+.ImagePip{
+    text-indent: 2em;
+  
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.823);
+}
