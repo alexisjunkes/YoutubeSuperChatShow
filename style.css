@@ -34,11 +34,11 @@ main{
     border-radius: 30px;
     min-width: var(--minimo_largura);
     max-width: var(--maximo_largura);
-    margin: auto;
+   
     padding: 20px ;
     margin-bottom: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     
     display: block;
     margin: auto;
@@ -54,24 +54,22 @@ p{
     text-indent: 2em;
 }
 
-div.LogoHeader{
-    margin: auto;
-    min-width: 200px;
-    max-width: 200px;
-    padding: 30px;
-    margin-top: 50px;
-}
-div.LogoHeader img{
-    width: 100%;
-    min-width: 200px;
+
+.LogoHeader {
+    text-indent: 2em;
+    min-width: 25%;
+ 
     max-width: 25%;
     display: block;
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .ImagePip{
     text-indent: 2em;
-  
+    border-radius: 10px;
+    max-width: 100%;
     display: block;
     margin: auto;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.823);
